@@ -56,10 +56,13 @@
                             <a class="nav-link" href="#elproyecto">Sobre el proyecto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#enprogreso">Respiradores en progreso...</a>
+                            <a class="nav-link" href="#enprogreso">Respiradores en progreso</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#equipo">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prensa">Prensa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contacto">Contacto</a>
@@ -96,17 +99,17 @@
                 </div>
             </div>
             <!-- If we need pagination -->
-            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- <div class="swiper-pagination swiper-pagination-white"></div> -->
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev swiper-button-white"></div>
-            <div class="swiper-button-next swiper-button-white"></div>
+            <!-- <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-next swiper-button-white"></div> -->
         </div>
     </header>
     <div class="section" id="descripcion">
         <div class="container">
             <div class="my-lg text-center ">
                 <h2 class="display-5 reveal fadeIn">El modelo que ven abajo es uno de los prototipos que liberó el MIT para su fabricación debido a la emergencia sanitaria por el COVID-19. Sabemos cómo construirlo, pero necesitamos ayuda para que el prototipo sea una realidad y salve vidas en la provincia de El Oro. Abajo hay un listado de lo que nos hace falta, si quieres contribuir ponte en contacto con nosotros.</h2>
-                <img src="images/mit-screenshot-respirador.png" class="py-3 reveal zoomIn" data-wow-delay="1s" alt="Prototipo del MIT" width="600" />
+                <img src="images/mit-screenshot-respirador.png" class="img-fluid py-3 reveal zoomIn" data-wow-delay="1s" alt="Prototipo del MIT" width="600" />
             </div>
             <!-- // end .my-lg -->
 
@@ -125,16 +128,17 @@
             <div class="row">
                 <div class="col-md-12 text-center mb-3">
                     <h2 class="display-5">Componentes que nos hacen falta</h2>
+                    <h3 class="display-5">Componentes Electrónicos</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="card mb-4 reveal fadeInUp">
                         <div class="card-block">
                             <div class="media">
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
-                                    <h5 class="mt-0">Componentes para arduino</h5>
+                                    <h5 class="mt-0">Motor con encoder o servomotores de alto torque</h5>
                                     <!-- Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. -->
                                 </div>
                             </div>
@@ -148,7 +152,7 @@
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
                                     <h5 class="mt-0">
-                                        Motores DC
+                                        Potenciómetros de 10k
                                     </h5>
                                 </div>
                             </div>
@@ -161,7 +165,7 @@
                             <div class="media">
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
-                                    <h5 class="mt-0">Potenciómetros</h5>
+                                    <h5 class="mt-0">Switches ojo de cangrejo</h5>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +178,7 @@
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
                                     <h5 class="mt-0">
-                                        Sensores de presión
+                                        Botones
                                     </h5>
                                 </div>
                             </div>
@@ -187,7 +191,7 @@
                             <div class="media">
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
-                                    <h5 class="mt-0">Switches</h5>
+                                    <h5 class="mt-0">Sensores de presión diferencial</h5>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +203,7 @@
                             <div class="media">
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
-                                    <h5 class="mt-0">Alarmas</h5>
+                                    <h5 class="mt-0">Fuentes de poder</h5>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +215,7 @@
                             <div class="media">
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
-                                    <h5 class="mt-0">Botones</h5>
+                                    <h5 class="mt-0">Mini parlante para alarma</h5>
                                 </div>
                             </div>
                         </div>
@@ -223,7 +227,7 @@
                             <div class="media">
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
-                                    <h5 class="mt-0">Displays LCD</h5>
+                                    <h5 class="mt-0">Driver de motores</h5>
                                 </div>
                             </div>
                         </div>
@@ -235,21 +239,92 @@
                             <div class="media">
                                 <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
                                 <div class="media-body">
-                                    <h5 class="mt-0">Drivers de motores</h5>
+                                    <h5 class="mt-0">Pantalla LCD 20x4</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 reveal fadeInUp" data-wow-delay="4s">
+                        <div class="card-block">
+                            <div class="media">
+                                <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Arduino</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center mb-3">
+                    <h3 class="display-5">Componentes Médicos</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 reveal fadeInUp">
+                        <div class="card-block">
+                            <div class="media">
+                                <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Ambú</h5>
+                                    <!-- Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center">
+                <div class="col-md-12 text-center mb-3">
+                    <h3 class="display-5">Componentes Mecánicos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 reveal fadeInUp">
+                        <div class="card-block">
+                            <div class="media">
+                                <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Corte CNC</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 reveal fadeInUp">
+                        <div class="card-block">
+                            <div class="media">
+                                <img class="d-flex mr-3" src="images/lightbulb_idea.svg" width="60" alt="Icon">
+                                <div class="media-body">
+                                    <h5 class="mt-0">
+                                        Motor con encoder o servomotores de alto torque
+                                    </h5>
+                                    <!-- Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+
         </div>
     </div>
 
         <div class="section" id="enprogreso">
             <div class="container">
                 <div class="my-lg text-center ">
-                    <h2 class="display-4 reveal fadeIn">Respiradores en progreso...</h2>
+                    <h2 class="display-4 reveal fadeIn">Respiradores en progreso</h2>
                 </div>
                 <!-- // end .my-lg -->
         
@@ -297,6 +372,18 @@
         </div>
     </div> -->
 
+        <div class="section video-section d-flex align-items-end justify-content-center text-center" id="video"
+            data-parallax="scroll" data-speed="0.5" data-image-src="images/bg-prototipo-1.png">
+            <div class="container">
+                <a href="https://www.youtube.com/watch?v=YFiCNxxUV0g" class="video-play reveal fadeInUp">
+                    <i class="fa fa-play-circle fa-inverse fa-5x my-3" aria-hidden="true"></i>
+                </a>
+                <h2 class="display-4 reveal fadeInUp" data-wow-delay="0.5s">Mira el prototipo funcionando</h2>
+                <p class="lead py-2 reveal fadeInUp" data-wow-delay="1s">Pruebas del primer prototipo</p>
+            </div>
+            <!-- // end .container -->
+        </div>
+
     <!-- // end #left-right.section -->
     <div class="section bg-light" id="equipo">
         <div class="container">
@@ -314,16 +401,16 @@
                             <p class="card-text text-muted">Coordinación General</p>
                             <p class="card-text text-muted small">Encargado de la coordinación general, electrónica y Firmware</p>
                             <p class="card-text social-icons">
-                                <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
-                                <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
-                                <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+                                <a href="https://www.facebook.com/luisonboard" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                                <a href="https://twitter.com/luisonboard" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                                <a href="https://www.linkedin.com/in/luis-astudillo-7a273918b/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <!-- // end .col-sm-4 -->
                 <div class="col-sm-6 col-md-4">
-                    <div class="card mb-3 text-center reveal fadeIn" data-wow-delay="0.5s">
+                    <div class="card mb-3 text-center reveal fadeIn" data-wow-delay="0.3s">
                         <img class="card-img-top team-img" src="images/equipo/paola-alvarado.png" alt="Paola Alvarado">
                         <div class="card-block">
                             <h4 class="card-title">Paola Alvarado</h4>
@@ -339,7 +426,7 @@
                 </div>
                 <!-- // end .col-sm-4 -->
                 <div class="col-sm-6 col-md-4">
-                    <div class="card mb-3 text-center reveal fadeIn" data-wow-delay="1s">
+                    <div class="card mb-3 text-center reveal fadeIn" data-wow-delay="0.6s">
                         <img class="card-img-top team-img" src="images/equipo/michael-astudillo.png" alt="Michael Astudillo">
                         <div class="card-block">
                             <h4 class="card-title">Michael Astudillo</h4>
@@ -359,7 +446,7 @@
 
             <div class="row">
                 <div class="col-sm-6 col-md-4">
-                    <div class="card mb-3 text-center reveal fadeIn">
+                    <div class="card mb-3 text-center reveal fadeIn" data-wow-delay="0.9s">
                         <img class="card-img-top team-img" src="images/equipo/jorge-ortega.png" alt="Jorge Ortega">
                         <div class="card-block">
                             <h4 class="card-title">Jorge Ortega</h4>
@@ -375,7 +462,7 @@
                 </div>
                 <!-- // end .col-sm-4 -->
                 <div class="col-sm-6 col-md-4">
-                    <div class="card mb-3 text-center reveal fadeIn">
+                    <div class="card mb-3 text-center reveal fadeIn" data-wow-delay="1.2s">
                         <img class="card-img-top team-img" src="images/equipo/ivan-ramirez.png" alt="Ivan Ramírez">
                         <div class="card-block">
                             <h4 class="card-title">Ivan Ramírez</h4>
@@ -391,6 +478,19 @@
                 </div>
                 <!-- // end .col-sm-4 -->
                 <div class="col-sm-6 col-md-4">
+                    <div class="card mb-3 text-center reveal fadeIn" data-wow-delay="1.5s">
+                        <img class="card-img-top team-img" src="images/equipo/narel-pavon.png" alt="Narel Pavón">
+                        <div class="card-block">
+                            <h4 class="card-title">Narel Pavón</h4>
+                            <p class="card-text text-muted">Contabilidad</p>
+                            <p class="card-text text-muted small">Encargada de la contabilidad de herramientas en el proceso del proyecto</p>
+                            <p class="card-text social-icons">
+                                <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                                <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                                <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <!-- // end .col-sm-4 -->
             </div>
@@ -400,22 +500,76 @@
     </div>
     <!-- // end #team.section -->
 
-    <div class="section" id="contacto">
 
+    <div class="section" id="prensa">
+    
         <div class="container">
             <div class="row reveal fadeInUp">
                 <div class="col-md-12">
                     <div class="message-box text-center">
-                        <h3 class="display-5">Contáctate con nosotros de la manera más rápida</h3>
-                        <a href="https://wa.me/593985740882?text=Hola!%20Estoy%20interesado%20en%20participar%20en%20el%20proyecto.%20Me%20gustaría%20colaborar%20en%20" target="_blank" class="btn btn-outline-primary reveal fadeIn" data-wow-delay="0.5s"> <i class="fa fa-whatsapp fa-2x"></i></a>
-
-                        <a href="tel:+593985740882" target="_blank" class="btn btn-outline-primary reveal fadeIn" data-wow-delay="0.5s"> <i class="fa fa-phone fa-2x"></i></a>
-
-                        <a href="https://join.slack.com/t/proyectorespioro/shared_invite/zt-d9scovir-vCJyPgPbFDFqxTYm4lSfuw"
-                            target="_blank" class="btn btn-outline-primary reveal fadeIn" data-wow-delay="0.5s"> <i
-                                class="fa fa-slack fa-2x"></i></a>
+                        <h3 class="display-5">Artículos, Entrevistas y Reportajes</h3>
                     </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 reveal fadeInUp">
+                        <div class="card-block">
+                            <div class="media">
+                                <div class="media-body">
+                                    <a href="https://www.facebook.com/MPNoticiasMachala/videos/228058535213956/?v=228058535213956" target="_blank">
+                                        <img src="images/prensa/prensa-mpnoticias.png" alt="" class="img-fluid mb-3">
+                                    </a>
+                                    <h5 class="mt-0 text-center"><a href="https://www.facebook.com/MPNoticiasMachala/videos/228058535213956/?v=228058535213956" target="_blank">Entrevista MP Noticias</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 reveal fadeInUp">
+                        <div class="card-block">
+                            <div class="media">
+                                <div class="media-body">
+                                    <a href="https://www.facebook.com/RadioJubonesEP/videos/861818104319855/?t=2451"
+                                        target="_blank">
+                                        <img src="images/prensa/prensa-radiojubones.png" alt="" class="img-fluid mb-3">
+                                    </a>
+                                    <h5 class="mt-0 text-center">
+                                        <a href="https://www.facebook.com/RadioJubonesEP/videos/861818104319855/?t=2451"
+                                            target="_blank">Entrevista Radio Jubones</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- // end .row -->
+        </div>
+        <!-- // end .container -->
+    </div>
+
+    <div class="section" id="contacto">
+
+        <div class="container mb-5">
+            <div class="row reveal fadeInUp justify-content-center">
+                <div class="col-md-12">
+                    <div class="message-box text-center">
+                        <h3 class="display-5">Contáctate con nosotros de la manera más rápida</h3>
+                    </div>
+                    <div class=" text-center">
+                    <a href="https://wa.me/593985740882?text=Hola!%20Estoy%20interesado%20en%20participar%20en%20el%20proyecto.%20Me%20gustaría%20colaborar%20en%20"
+                        target="_blank" class="btn btn-outline-primary reveal fadeIn" data-wow-delay="0.5s"> <i
+                            class="fa fa-whatsapp fa-2x"></i></a>
+
+                    <a href="tel:+593985740882" target="_blank" class="btn btn-outline-primary reveal fadeIn" data-wow-delay="0.5s"> <i
+                            class="fa fa-phone fa-2x"></i></a>
+
+                    <a href="https://join.slack.com/t/proyectorespioro/shared_invite/zt-d9scovir-vCJyPgPbFDFqxTYm4lSfuw" target="_blank"
+                        class="btn btn-outline-primary reveal fadeIn" data-wow-delay="0.5s"> <i class="fa fa-slack fa-2x"></i></a>
+                    </div>
                 </div>
 
             </div>
@@ -426,12 +580,17 @@
     <!-- // end #contact.section -->
     <div class="section bg-light mt-4" id="footer">
         <div class="container">
-            <div class=" text-center mt-4"> <small class="text-muted">Copyright ©
-                <script type="text/javascript">
-                document.write(new Date().getFullYear());
-                </script>
-                - Contenido bajo licencia Creative Commons - Compartir Igual
-            </small></div>
+            <div class=" text-center mt-4">
+                <small class="text-muted">Copyright ©
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                    - Contenido bajo licencia Creative Commons - Atribución-CompartirIgual
+                </small>
+                <div class="mt-2">
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" target="_blank"><img src="images/licencia-cc.png" alt="Licencia Creative Commons" /></a>
+                </div>
+            </div>
         </div>
         <!-- // end .container -->
     </div>

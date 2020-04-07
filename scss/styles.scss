@@ -525,7 +525,7 @@ header {
     height: 300px;
     overflow: hidden;
     border: 2px solid $white;
-    background: url('../images/global/spinner.gif') no-repeat center center $gray-lighter;
+    // background: url('../images/spinner.gif') no-repeat center center $gray-lighter;
     &:hover {
     background: $gray-lighter;
   }
